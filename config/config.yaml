@@ -1,0 +1,19 @@
+# Configurations for this project
+
+# Classes of the actions.
+classes: ['action1','action2']
+
+image_filename_format: "{:05d}.jpg"
+3d_skeleton_format: "{:05d}.txt"
+
+features:
+  window_size: 10 # Number of  adjacent frames for extracting features
+
+s1_get_3d_skeletons:
+  input:
+    videos_folder: data/Videos/
+    images_folder: data/SequentialImages/
+  output:
+    skeletons_folder: data/3dSkeletons/
+    
+
