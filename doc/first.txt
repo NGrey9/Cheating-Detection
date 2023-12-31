@@ -1,1 +1,0 @@
-create or clone a module that used to get skeletons from training videos frames 
