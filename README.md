@@ -69,7 +69,7 @@ to generate the output.
 
 ## 🎁 Results
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NGrey9/Cheating-Detection/assets/test.gif" width="580px"/><br>
+  <img src="https://raw.githubusercontent.com/NGrey9/Cheating-Detection/main/assets/test.gif" width="580px"/><br>
     <p style="font-size:1.5vw;">My Recognition Model Results</p>
 </div>
 
