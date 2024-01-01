@@ -44,3 +44,17 @@ To implement my model to Cheating Detection using camera,
 you need to modify something in your mmaction2 directory:
 
 - Change original mmaction2/demo/demo_skeleton.py to be the same as my mmaction2/demo/demo_skeleton.py
+- Change original mmaction2/mmaction/apis/inference.py to be the same as my mmaction2/mmaction/apis/inference.py
+- Change original mmaction2/utils/misc.py to be the same as my mmaction2/utils/misc.py
+
+Then you should modify the labels.txt 
+
+```shell
+lean forward
+tease the person above
+bent down to the ground to pick up documents
+see documents below the exam
+lean to the sides
+no cheating
+no cheating
+```
