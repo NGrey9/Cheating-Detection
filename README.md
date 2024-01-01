@@ -68,10 +68,11 @@ python mmaction2/demo/demo_skeleton.py [your-video-input-path] [your-output-path
 to generate the output.
 
 ## 🎁 Results
-<video width="320" height="240" controls>
-  <source src="/home/nhan/Desktop/a/Cheating-Detection/assets/test.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NGrey9/Cheating-Detection/main/assets/test.gif" width="580px"/><br>
+    <p style="font-size:1.5vw;">My Recognition Model Results</p>
+</div>
+
 
 
 
