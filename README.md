@@ -41,4 +41,6 @@ pip install -v -e .
 
 
 To implement my model to Cheating Detection using camera,
-you need to modify something in your mmaction2 directory
+you need to modify something in your mmaction2 directory:
+
+- Change original mmaction2/demo/demo_skeleton.py to be the same as my mmaction2/demo/demo_skeleton.py
