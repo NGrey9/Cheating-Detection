@@ -20,6 +20,7 @@ Please refer to [install.md](https://mmaction2.readthedocs.io/en/latest/get_star
 <summary>Quick instructions</summary>
 
 ```shell
+git clone https://github.com/open-mmlab/mmaction2.git
 conda create --name openmmlab python=3.8 -y
 conda activate open-mmlab
 conda install pytorch torchvision -c pytorch  # This command will automatically install the latest version PyTorch and cudatoolkit, please check whether they match your environment.
@@ -34,3 +35,10 @@ pip install -v -e .
 ```
 
 </details>
+
+
+## 🛠️ Modifying
+
+
+To implement my model to Cheating Detection using camera,
+you need to modify something in your mmaction2 directory
