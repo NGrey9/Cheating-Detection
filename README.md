@@ -58,3 +58,20 @@ lean to the sides
 no cheating
 no cheating
 ```
+You need to use mmaction2/configs/skeleton/posec3d/slowonly_r50_8xb16-u48-240e_gym-keypoint.py to be default config for Recognition,
+and you should set num_classes=7 
+
+Finally, you run:
+```shell
+python mmaction2/demo/demo_skeleton.py [your-video-input-path] [your-output-path] --checkpoint [checkpoint-path] --label-map [labels-text-file] --config [config-file-path] --device ['cpu' or 'cuda:0']
+```
+to generate the output.
+
+## 🎁 Results
+<video width="320" height="240" controls>
+  <source src="/home/nhan/Desktop/a/Cheating-Detection/assets/test.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
